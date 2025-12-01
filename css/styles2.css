@@ -236,13 +236,20 @@ h1, h2 {
 
 }
 
+.articulo_02 {
+  width:35%
+}
+
 .seccion_02 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
+.pasos_compra {
+  padding: 16px;
+}
 
 /* Footer */
 
