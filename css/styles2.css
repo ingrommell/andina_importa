@@ -272,7 +272,9 @@ transition: all 0.3s;
 }
 
 
-
+h3 {
+  text-align: center;
+}
 
 
 /* Footer */
