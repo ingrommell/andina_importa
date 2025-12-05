@@ -260,6 +260,19 @@ h1, h2 {
 
 
 
+.marco_webs {
+border-radius: 2%;
+cursor: pointer;  
+transition: all 0.3s;
+}
+
+.marco_webs:hover{
+   transform: scale(0.90);
+   transition: all 0.3 s;
+}
+
+
+
 
 
 /* Footer */
