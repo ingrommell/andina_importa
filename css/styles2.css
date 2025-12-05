@@ -251,6 +251,17 @@ h1, h2 {
   padding: 16px;
 }
 
+.articulos_webs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+
+
 /* Footer */
 
 footer {
