@@ -11,6 +11,8 @@ body {
   background-attachment: fixed;
 }
 
+/*Logotipo*/
+ 
 #logo_cabecera {
   margin-left: 10px;
   width: 140px;
@@ -23,7 +25,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Para poner el footer en la parte inferior y no se suba */
+/*Para poner el footer en la parte inferior y no se suba*/
 
 .contenedor_principal {
   min-height: 100vh;
@@ -163,6 +165,8 @@ nav .nav_links li:hover > .links_productos {
 
 /* Terminando Barra de Navegacion*/
 
+
+
 /* Botton de contacto */
 .contactanos {
   background-color: #fff;
@@ -197,6 +201,7 @@ nav .nav_links li:hover > .links_productos {
 
 
 /* Secciones de la página */
+/* Seccion 1 */
 
 .vendedor {
   padding: 1rem;
@@ -210,14 +215,13 @@ nav .nav_links li:hover > .links_productos {
   align-items: center;
 }
 
-h1, h2 {
+h1 {
   font-size: 35px;
   text-align: center;
   font-family: "Anton SC", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  margin-bottom: 30px;
 }
 
 .articulo_01 {
@@ -226,30 +230,50 @@ h1, h2 {
 }
 
 .texto_01 {
-  text-align: justify;
+  text-align: center;
   text-indent: 35px;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-size: 1.15rem;
-
 }
 
-.articulo_02 {
+/* Seccion 2*/
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+/* .articulo_02 {
   width:35%
-}
+} */
 
-.seccion_02 {
+/* .seccion_02 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+} */
+
+.texto_02 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0.2rem;
 }
 
-.pasos_compra {
+/* .pasos_compra {
   padding: 16px;
-}
+} */
 
 .articulos_webs {
   display: flex;
@@ -257,8 +281,6 @@ h1, h2 {
   justify-content: space-evenly;
   align-items: center;
 }
-
-
 
 .marco_webs {
 border-radius: 2%;
@@ -272,8 +294,19 @@ transition: all 0.3s;
 }
 
 
+/*Seccion 3*/
+
 h3 {
   text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.articulo_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
 }
 
 
