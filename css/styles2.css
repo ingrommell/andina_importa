@@ -342,3 +342,30 @@ footer {
   width: 35px;
   height: auto;
 }
+
+/*Logo Whatsapp*/
+
+.float{
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  background-color: #25d366;
+  bottom: 40px;
+  right: 40px;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 999;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+.logo_blanco{
+  width: 70px;
+}
+
+.float:hover{
+  background-color:  red;
+}
