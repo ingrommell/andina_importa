@@ -360,12 +360,15 @@ footer {
   border: 0;
   margin: 0;
   text-align: justify;
+  transition: all 0.3s;
 }
 
 .logo_blanco{
   width: 70px;
+  transition: 0.3s;
 }
 
 .float:hover{
   background-color:  red;
+  transform: scale(1.15)
 }
